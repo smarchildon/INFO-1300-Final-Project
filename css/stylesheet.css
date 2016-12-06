@@ -2,7 +2,6 @@
 
 
 body {
-	background-color: #ffffff;
 	font-family: Open Sans, sans-serif;
 	font-size: 100%;
     
@@ -65,7 +64,41 @@ img{
     padding-top: 0.5em;
 }*/
 
-#navbar{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fec44f;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #d95f0e;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+/*#navbar{
 	text-align: center;
     background-color: #feb24c;
     color: #ffffff;
@@ -80,24 +113,24 @@ img{
 
 
     
-}
+}*/
 
 
-
-.nav_span {
-	margin-right: 4em;
-}
 
 #container {
 	width: 100%;
-
 }
 
 #content {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
-    padding-top: 5.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #ffffff;
+
 }
 
 /*Styling for the food page: */
