@@ -124,7 +124,7 @@ li a:hover {
 #content {
     margin-right: auto;
     margin-left: auto;
-    max-width: 960px;
+    max-width: 966px;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
@@ -187,7 +187,29 @@ li a:hover {
 
 }
 
+#food_content {
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 966px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: #ffffff;
+
+    height: 2200px;
+
+
+
+
+
+
+
+}
+
 textarea  {
+    background: transparent;
     border: none;
     overflow: auto;
     outline: none;
@@ -197,13 +219,16 @@ textarea  {
     box-shadow: none;
     width: 12%;
     width:400px; 
-    height: 500px;
-    padding: 8px;
-
+    height: 300px;
+    padding: 4px;
+    padding-right: 5px;
+    padding-left:5px;
 
 
     float:right;
     font-size: 1.05em;
+
+   
 
 }
 
