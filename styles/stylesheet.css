@@ -19,6 +19,7 @@ h2 {
 
 h3 {
     text-align: center;
+    font-size: 150%;
 }
 
 h4 {
@@ -167,7 +168,7 @@ li a:hover {
 
     float: left;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 110%;
     padding-left: 17px;
 
 }
@@ -175,7 +176,7 @@ li a:hover {
 .right_par {
     float: left;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 110%;
     padding-left: 17px;
 
 }
